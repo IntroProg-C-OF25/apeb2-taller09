@@ -1,18 +1,15 @@
-# Taller 08 (Laboratorio)
+# Taller 09 (Laboratorio)
 
-## Representación gráfica y diseño de la solución de problemas con pseudocódigo aplicando arreglos unidimensionales.
+## Construcción de programas usando arreglos unidimensionales
 
 * Leer detenidamente cada problemática propuesta.
-* Plantear el esquema de forma general / breve = ANÁLISIS.
-* Diseñar la solución formal en pseudocódigo A MANO, EN PAPEL O WORD (use algoritmos y/o PSeInt opcionalmente - éste último solo para verificación). Considere las reglas para su representación: Indentación, bloques de definición de variables/dominios y de control (entrada, proceso, salida), etc. 
-* Diseñar la solución en flujograma (DiaUML, Word otros, NO USE PseINT para la entrega final, usará ello solo como verificación, si únicamente adjunta el .psc no será considerado para puntuar).
-* Realice y evidencie la prueba de escritorio, que confirme la funcionalidad/resultados correctos de su solución (puede usar papel, excel, word, etc.).
+* Programa/codifíque con el lenguaje de alto nivel Java (IDE NetBeans), sus soluciones a cada uno de los problemas listados a continuación. 
+* Para cada programa, genere una clase independiente pero dentro de un solo/único proyecto Java App. No olvide titular a cada clase, con el nombre representativo de la solución y con el número del problema de este listado. 
+* Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas.
 
-## Construcción de pseudocódigo usando arreglos unidimensionales
+## Construcción de programas usando arreglos unidimensionales
 
-### Ejercicio 001
-
-**Ejercicio.Java**
+### Ejercicio 1
 
 Genera una aplicación que permita ingresar valores a un arreglo de cadenas. El arreglo almacena el número de elementos que el usuario lo disponga. Se puede plantear el escenario que se ingresen nombres de marcas de vehículos.
 
@@ -21,18 +18,19 @@ Por ejemplo, si el usuario decide ingresar 5 marcas; el arreglo solo debe permit
 Considerar las siguientes excepciones, no se contabilizan dentro del número de elementos, marcas que empiecen con las letras
 A, C, T.
 
-### Ejercicio 3
+### Ejercicio 2
+
 Dado el arreglo; determinar cuantos elementos están arriba de la media aritmética y cuantos están por debajo de la medía aritmética.
 ```
 int[] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
 ```
 
-### Ejercicio 4
+### Ejercicio 3
+
 Dados los siguientes arreglos
 ```
 double[] promedios = {10, 10, 9.1, 7, 6.1, 4, 8};
-String[] estudiantes = {"Kimberly Gonzalez", "Mark Hogan",
-            "Teresa Martinez", "Julia Johnson", "Mark Cook", "Jennifer Manning", "Juan Vasquez"};
+String[] estudiantes = {"Kimberly Gonzalez", "Mark Hogan", "Teresa Martinez", "Julia Johnson", "Mark Cook", "Jennifer Manning", "Juan Vasquez"};
 ```
 
 Genere  los datos para el arreglo
@@ -55,8 +53,8 @@ Mark Cook promedio: 6,10 promedio cualitativo ?
 Jennifer Manning promedio: 4,00 promedio cualitativo ?
 Juan Vasquez promedio: 8,00 promedio cualitativo ?
 ```
+### Ejercicios 4
 
-### Ejercicios 5
 Analice el siguiente código
 ```
 Scanner entrada = new Scanner(System.in);
@@ -71,7 +69,8 @@ while(bandera){
 Modifique el ciclo repetitivo para que salga del mismo, cuando el usuario ingrese por teclado una letra que coincida con alguna de las primeras letras de los nombres del arreglo **estudiantes**. Debe usar un ciclo repetitivo para recorrer el arreglo **estudiantes**.
 
 
-### Ejercicios 6
+### Ejercicios 5
+
 El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuales al finalizar el ciclo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas en función a los promedios obtenidos del ciclo por estudiantes (use 1 arreglo, no matrices, y para el promedio por estudiante, no ingrese el valor, si se debe autogenerar). 
 
 - Promedio del ciclo, del paralelo C. 
