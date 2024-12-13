@@ -6,7 +6,7 @@
 * Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas.
 * Al final como parte de la codificación (en comentario /*** ), copiar y pegar los resultados obtenidos de la consola, evidenciando el funcionamiento de su solución. 
 
-## Construcción de programas usando la estructura repetitiva for
+## Construcción de programas usando la estructura de control repetitiva for
 
 ### Ejercicio 1
 
@@ -14,20 +14,25 @@ Con el objetivo practicar el uso del ciclo repetitivo for, se propone que dado u
 
 Figura 1:
 
+```
 *
 **
 ***
 ****
+```
 
 Figura 2:
 
+```
      *
     ***
    *****
   *******
+```
 
 Figura 3:
 
+```
      *
     ***
    *****
@@ -35,6 +40,7 @@ Figura 3:
    *****
     ***
      *
+```
 
 ### Ejercicio 2
 
