@@ -1,15 +1,50 @@
-# Taller 09 (Laboratorio)
-
-## Construcción de programas usando arreglos unidimensionales
+# Taller09
 
 * Leer detenidamente cada problemática propuesta.
 * Programa/codifíque con el lenguaje de alto nivel Java (IDE NetBeans), sus soluciones a cada uno de los problemas listados a continuación. 
 * Para cada programa, genere una clase independiente pero dentro de un solo/único proyecto Java App. No olvide titular a cada clase, con el nombre representativo de la solución y con el número del problema de este listado. 
 * Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas.
+* Al final como parte de la codificación (en comentario /*** ), copiar y pegar los resultados obtenidos de la consola, evidenciando el funcionamiento de su solución. 
+
+## Construcción de programas usando la estructura repetitiva for
+
+### Ejercicio 1
+
+Con el objetivo practicar el uso del ciclo repetitivo for, se propone que dado un límite, se presenten las siguientes figuras. Por ejemplo si el límite es 4: 
+
+Figura 1:
+
+*
+**
+***
+****
+
+Figura 2:
+
+     *
+    ***
+   *****
+  *******
+
+Figura 3:
+
+     *
+    ***
+   *****
+  *******
+   *****
+    ***
+     *
+
+### Ejercicio 2
+
+Escriba un programa que permita presentar la siguiente serie: 
+1/2, 1/3, 2/5, 3/7, 5/11, 8/13, . . . fibonaccis / primos 
+
 
 ## Construcción de programas usando arreglos unidimensionales
 
-### Ejercicio 1
+### Ejercicio 3
 
 Genera una aplicación que permita ingresar valores a un arreglo de cadenas. El arreglo almacena el número de elementos que el usuario lo disponga. Se puede plantear el escenario que se ingresen nombres de marcas de vehículos.
 
@@ -18,14 +53,14 @@ Por ejemplo, si el usuario decide ingresar 5 marcas; el arreglo solo debe permit
 Considerar las siguientes excepciones, no se contabilizan dentro del número de elementos, marcas que empiecen con las letras
 A, C, T.
 
-### Ejercicio 2
+### Ejercicio 4
 
 Dado el arreglo; determinar cuantos elementos están arriba de la media aritmética y cuantos están por debajo de la medía aritmética.
 ```
 int[] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
 ```
 
-### Ejercicio 3
+### Ejercicio 5
 
 Dados los siguientes arreglos
 ```
@@ -53,7 +88,7 @@ Mark Cook promedio: 6,10 promedio cualitativo ?
 Jennifer Manning promedio: 4,00 promedio cualitativo ?
 Juan Vasquez promedio: 8,00 promedio cualitativo ?
 ```
-### Ejercicios 4
+### Ejercicios 6
 
 Analice el siguiente código
 ```
@@ -66,10 +101,10 @@ while(bandera){
     inicial = entrada.nextLine();
  }
 ```
-Modifique el ciclo repetitivo para que salga del mismo, cuando el usuario ingrese por teclado una letra que coincida con alguna de las primeras letras de los nombres del arreglo **estudiantes**. Debe usar un ciclo repetitivo para recorrer el arreglo **estudiantes**.
+Modifique el ciclo repetitivo para que salga del mismo, cuando el usuario ingrese por teclado una letra que coincida con la primera letra de los "nombres" contenidos en del arreglo **estudiantes**. Debe usar un ciclo repetitivo para recorrer el arreglo **estudiantes**, y no quemar de forma constante dichas iniciales, imagine que **estudiantes** podría contener millón de nombres, por lo que fijar iniciales, es ineficiente.
 
 
-### Ejercicios 5
+### Ejercicios 7
 
 El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuales al finalizar el ciclo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas en función a los promedios obtenidos del ciclo por estudiantes (use 1 arreglo, no matrices, y para el promedio por estudiante, no ingrese el valor, si se debe autogenerar). 
 
